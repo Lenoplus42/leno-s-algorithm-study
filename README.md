@@ -11,6 +11,20 @@
 
 尤其注意区分“为什么需要寻找这个候选”和“如何快速找到它”。简短不能省略关键推理。
 
+## 笔记标准
+
+**严格保持 notes 的直觉性（intuitivity）和简洁性。目标是读完 intuition，就有能力自己实现算法。**
+
+- 用一句直觉和少量因果要点说明核心思维，只展开影响实现的关键连接。
+- 拒绝繁杂分析、案例推断和重复解释。
+- notes 写思路，solutions 放实现。凡是不帮助从直觉走到实现的内容，都不写。
+
+## 题目
+
+| 题目 | 直觉笔记 | Python 实现 |
+| --- | --- | --- |
+| 1392. Longest Happy Prefix | [notes](notes/1392-longest-happy-prefix.md) | [solutions](solutions/1392-longest-happy-prefix.py) |
+
 ## 在 Codex 中使用
 
 1. 克隆仓库：
@@ -32,7 +46,7 @@
 
 另一台电脑克隆同一个仓库即可获得 skill。更新后提交并推送，在另一台电脑拉取更新。Git 同步文件，不同步 Codex 对话历史。
 
-欢迎朋友们使用、fork 和改进。后续题解可放在 `notes/`，代码可放在 `solutions/`。
+欢迎朋友们使用、fork 和改进。直觉笔记放在 `notes/`，代码放在 `solutions/`。
 
 ## License
 
