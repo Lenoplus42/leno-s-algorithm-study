@@ -24,6 +24,7 @@
 | 题目 | 直觉笔记 | Python 实现 |
 | --- | --- | --- |
 | 1392. Longest Happy Prefix | [notes](notes/1392-longest-happy-prefix.md) | [solutions](solutions/1392-longest-happy-prefix.py) |
+| 最小化最长连续相同字符段 | [notes](notes/minimize-longest-run.md) | [solutions](solutions/minimize-longest-run.py) |
 
 ## 在 Codex 中使用
 
