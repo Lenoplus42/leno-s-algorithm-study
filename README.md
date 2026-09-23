@@ -18,11 +18,13 @@
 - 用一句直觉和少量因果要点说明核心思维，只展开影响实现的关键连接。
 - 拒绝繁杂分析、案例推断和重复解释。
 - notes 写思路，solutions 放实现。凡是不帮助从直觉走到实现的内容，都不写。
+- 新笔记使用两个大标题：`1. 核心直觉` 提炼原理，`2. 具体做法` 说明算法步骤与实现思路。
 
 ## 题目
 
 | 题目 | 直觉笔记 | Python 实现 |
 | --- | --- | --- |
+| 2. Add Two Numbers | [notes](notes/2-add-two-numbers.md) | [solutions](solutions/2-add-two-numbers.py) |
 | 1392. Longest Happy Prefix | [notes](notes/1392-longest-happy-prefix.md) | [solutions](solutions/1392-longest-happy-prefix.py) |
 | 最小化最长连续相同字符段 | [notes](notes/minimize-longest-run.md) | [solutions](solutions/minimize-longest-run.py) |
 
