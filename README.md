@@ -25,6 +25,7 @@
 | 题目 | 直觉笔记 | Python 实现 |
 | --- | --- | --- |
 | 2. Add Two Numbers | [notes](notes/2-add-two-numbers.md) | [solutions](solutions/2-add-two-numbers.py) |
+| 235. Lowest Common Ancestor of a Binary Search Tree | [notes](notes/235-lowest-common-ancestor-of-a-binary-search-tree.md) | [solutions](solutions/235-lowest-common-ancestor-of-a-binary-search-tree.py) |
 | 1392. Longest Happy Prefix | [notes](notes/1392-longest-happy-prefix.md) | [solutions](solutions/1392-longest-happy-prefix.py) |
 | 最小化最长连续相同字符段 | [notes](notes/minimize-longest-run.md) | [solutions](solutions/minimize-longest-run.py) |
 
