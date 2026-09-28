@@ -4,6 +4,8 @@
 
 ## 教学方式
 
+- **题目概览**：一句话清晰描述题目到底在问什么。如果较为复杂，就清晰抽象。
+- **题目引导**：简单列出题目给定的具体内容，break down要比题目描述更清晰直白。
 - **一句直觉**：先知道我们究竟在做什么。
 - **三四个要点**：建立完整的因果链。
 - **局部展开**：哪里没接上，就只解释那个连接。
@@ -25,8 +27,12 @@
 | 题目 | 直觉笔记 | Python 实现 |
 | --- | --- | --- |
 | 2. Add Two Numbers | [notes](notes/2-add-two-numbers.md) | [solutions](solutions/2-add-two-numbers.py) |
+| 210. Course Schedule II | [notes](notes/210-course-schedule-ii.md) | [solutions](solutions/210-course-schedule-ii.py) |
 | 235. Lowest Common Ancestor of a Binary Search Tree | [notes](notes/235-lowest-common-ancestor-of-a-binary-search-tree.md) | [solutions](solutions/235-lowest-common-ancestor-of-a-binary-search-tree.py) |
+| 1091. Shortest Path in Binary Matrix | [notes](notes/1091-shortest-path-in-binary-matrix.md) | [solutions](solutions/1091-shortest-path-in-binary-matrix.py) |
 | 1392. Longest Happy Prefix | [notes](notes/1392-longest-happy-prefix.md) | [solutions](solutions/1392-longest-happy-prefix.py) |
+| 1834. Single-Threaded CPU | [notes](notes/1834-single-threaded-cpu.md) | [solutions](solutions/1834-single-threaded-cpu.py) |
+| 3433. Count Mentions Per User | [notes](notes/3433-count-mentions-per-user.md) | [solutions](solutions/3433-count-mentions-per-user.py) |
 | 最小化最长连续相同字符段 | [notes](notes/minimize-longest-run.md) | [solutions](solutions/minimize-longest-run.py) |
 
 ## 在 Codex 中使用
