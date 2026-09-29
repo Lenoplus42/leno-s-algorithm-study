@@ -46,13 +46,20 @@
    ```
 
 2. 在 Codex 中将克隆后的文件夹打开为项目。
-3. skill 位于 `.agents/skills/intuition-first-tutor/SKILL.md`。在对话中输入：
+3. 根目录 `AGENTS.md` 自动提供项目默认规则：始终用中文回答；算法及 coding style 问题必须读取教学 skill，无需额外提示词。
+
+4. 教学 skill 位于 `.agents/skills/intuition-first-tutor/SKILL.md`，按需读取两份独立模式文件：
+
+   - 普通模式：`references/default-mode.md`，默认启用，先直觉再逐步对应代码。
+   - D mode：`references/d-mode.md`，仅显式触发时读取，以候选人身份一次完成推导、思路、完整注释代码和复杂度分析。例如：
 
    ```text
-   $intuition-first-tutor 带我理解这道算法题。先用一句直觉和三四个极简要点讲核心思维。
+   D mode：实现一个 Kac ring，支持 step()、step_k(k) 和 color()。
    ```
 
-如果没有发现 skill，重启 Codex 后重新打开项目。也可以直接阅读 [SKILL.md](.agents/skills/intuition-first-tutor/SKILL.md)，将其中的教学方法用于其他助手。
+   D mode 在当前题目的后续追问中持续生效，明确退出后恢复普通模式；新任务没有触发词时使用普通模式。仅讨论模式配置不会触发答题。
+
+修改规则后，在本项目中新建任务验证加载情况；若规则未加载，检查工作目录及 `AGENTS.override.md` 等覆盖文件。也可以直接阅读 [SKILL.md](.agents/skills/intuition-first-tutor/SKILL.md)，将其中的教学方法用于其他助手。
 
 ## 跨电脑与共享
 
