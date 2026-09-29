@@ -34,6 +34,8 @@
 | 1834. Single-Threaded CPU | [notes](notes/1834-single-threaded-cpu.md) | [solutions](solutions/1834-single-threaded-cpu.py) |
 | 3433. Count Mentions Per User | [notes](notes/3433-count-mentions-per-user.md) | [solutions](solutions/3433-count-mentions-per-user.py) |
 | 最小化最长连续相同字符段 | [notes](notes/minimize-longest-run.md) | [solutions](solutions/minimize-longest-run.py) |
+| Kac Ring 1：单步模拟 | [notes](notes/kac-ring-1.md) | [solutions](solutions/kac-ring-1.py) |
+| Kac Ring 2：任意步数跳转 | [notes](notes/kac-ring-2.md) | [solutions](solutions/kac-ring-2.py) |
 
 ## 在 Codex 中使用
 
